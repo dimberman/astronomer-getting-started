@@ -1,0 +1,6 @@
+executor: CeleryExecutor
+images:
+  airflow:
+    repository: dimberman/astronomer-demo
+    tag: 0.0.1 
+    pullPolicy: IfNotPresent
